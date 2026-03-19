@@ -84,8 +84,8 @@ export default function FeaturesPreviewSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-bg">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+    <section ref={sectionRef} className="section-spacing bg-bg">
+      <div className="container-main">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-14">
           <div className="space-y-3 reveal-hidden">
@@ -174,7 +174,7 @@ export default function FeaturesPreviewSection() {
               style={{ transitionDelay: `${(i + 1) * 80}ms` }}
             >
               <div
-                className="w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0"
+                className="w-11 h-11 rounded-2xl flex items-center justify-center shrink-0"
                 style={{ background: feature.bg }}
               >
                 <Icon

@@ -13,7 +13,7 @@ const footerLinks = [
 export default function Footer() {
   return (
     <footer className="bg-card border-t border-border">
-      <div className="max-w-container mx-auto px-6 lg:px-8 py-10">
+      <div className="container-main py-10">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           {/* Brand */}
           <Link href="/homepage" className="flex items-center gap-2.5">

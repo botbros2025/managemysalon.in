@@ -60,7 +60,7 @@ export default function BetaHowToJoin() {
 
   return (
     <section id="join" ref={ref} className="py-24 bg-surface">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+      <div className="max-w-container mx-auto px-10 lg:px-16">
         {/* Header */}
         <div className="text-center mb-16 space-y-3 reveal-hidden">
           <p className="section-label">Getting started</p>

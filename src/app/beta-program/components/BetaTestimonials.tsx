@@ -67,7 +67,7 @@ export default function BetaTestimonials() {
 
   return (
     <section ref={ref} className="py-24 bg-bg">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+      <div className="max-w-container mx-auto px-10 lg:px-16">
         {/* Header */}
         <div className="text-center mb-14 space-y-3 reveal-hidden">
           <p className="section-label">Beta user stories</p>

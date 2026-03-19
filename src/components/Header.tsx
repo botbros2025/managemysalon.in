@@ -40,10 +40,10 @@ export default function Header() {
           scrolled ? "nav-blur shadow-sm" : "bg-bg border-b border-border"
         }`}
       >
-        <div className="max-w-container mx-auto px-6 lg:px-8">
+        <div className="container-main">
           <div className="flex items-center justify-between h-16 lg:h-18">
             {/* Logo */}
-            <Link href="/homepage" className="flex items-center gap-2.5 flex-shrink-0">
+            <Link href="/homepage" className="flex items-center gap-2.5 shrink-0">
               <AppLogo size={32} />
               <span className="font-display font-800 text-lg tracking-tight text-primary hidden sm:block">
                 ManageMySalon
@@ -74,9 +74,9 @@ export default function Header() {
 
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-3">
-              <button className="btn-secondary text-sm py-2.5 px-5">
-                Login
-              </button>
+              <Link href="/login">
+                <button className="btn-secondary text-sm py-2.5 px-5">Login</button>
+              </Link>
               <Link href="/beta-program">
                 <button className="btn-primary text-sm py-2.5 px-5">
                   <Icon name="ArrowDownTrayIcon" size={16} />
@@ -134,7 +134,9 @@ export default function Header() {
               })}
             </nav>
             <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-border">
-              <button className="btn-secondary w-full justify-center">Login</button>
+              <Link href="/login" className="w-full">
+                <button className="btn-secondary w-full justify-center">Login</button>
+              </Link>
               <Link href="/beta-program" className="w-full">
                 <button className="btn-primary w-full justify-center">
                   <Icon name="ArrowDownTrayIcon" size={16} />

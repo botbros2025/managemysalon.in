@@ -54,7 +54,7 @@ export default function BetaCTA() {
         style={{ background: "radial-gradient(circle, #3F6F52 0%, transparent 70%)" }}
       />
 
-      <div className="max-w-container mx-auto px-6 lg:px-8 relative z-10">
+      <div className="max-w-container mx-auto px-10 lg:px-16 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left — Text */}
           <div className="space-y-8 reveal-left">

@@ -121,8 +121,8 @@ export default function SocialProofSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-20 bg-bg border-y border-border">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+    <section ref={sectionRef} className="section-spacing bg-bg border-y border-border">
+      <div className="container-main">
         <div className="text-center mb-12 reveal-hidden">
           <p className="section-label mb-3">Trusted by salons everywhere</p>
           <h2 className="font-display font-700 text-3xl lg:text-4xl text-foreground">

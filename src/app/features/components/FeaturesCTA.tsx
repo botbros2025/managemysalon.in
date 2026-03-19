@@ -28,7 +28,7 @@ export default function FeaturesCTA() {
 
   return (
     <section ref={ref} className="py-20 bg-surface">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+      <div className="max-w-container mx-auto px-10 lg:px-16">
         <div
           className="rounded-5xl p-10 lg:p-16 relative overflow-hidden reveal-scale"
           style={{ background: "#1F3D2B" }}

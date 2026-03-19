@@ -56,8 +56,8 @@ export default function HowItWorksSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-24 bg-surface">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+    <section ref={sectionRef} className="section-spacing bg-surface">
+      <div className="container-main">
         {/* Header */}
         <div className="text-center mb-16 space-y-3 reveal-hidden">
           <p className="section-label">Simple setup</p>
@@ -74,7 +74,7 @@ export default function HowItWorksSection() {
         {/* Steps — horizontal with connector lines */}
         <div className="relative">
           {/* Connector line (desktop) */}
-          <div className="hidden lg:block absolute top-[52px] left-[calc(16.67%+32px)] right-[calc(16.67%+32px)] h-px bg-gradient-to-r from-border via-accent to-border z-0" />
+          <div className="hidden lg:block absolute top-[52px] left-[calc(16.67%+32px)] right-[calc(16.67%+32px)] h-px bg-linear-to-r from-border via-accent to-border z-0" />
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-6 relative z-10">
             {steps.map((step, i) => (

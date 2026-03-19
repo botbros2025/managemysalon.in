@@ -51,7 +51,7 @@ export default function BetaHero() {
           backgroundSize: "32px 32px",
         }}
       />
-      <div className="max-w-container mx-auto px-6 lg:px-8 relative z-10">
+      <div className="max-w-container mx-auto px-10 lg:px-16 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           {/* Gold badge */}
           <div

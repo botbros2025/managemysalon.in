@@ -183,7 +183,7 @@ export default function HeroSection() {
   return (
     <section
       ref={heroRef}
-      className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden hero-bg"
+      className="section-spacing relative min-h-screen flex items-center pt-20 overflow-hidden hero-bg"
       style={{ perspective: "1400px" }}
     >
       {/* Background blobs */}
@@ -202,7 +202,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="max-w-container mx-auto px-6 lg:px-8 w-full">
+      <div className="container-main w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left — Text content */}
           <div className="space-y-8 animate-fade-up">
@@ -285,7 +285,7 @@ export default function HeroSection() {
                     fill
                     className="object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t from-primary/80 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-5">
                     <div className="space-y-2">
                       <p className="text-white/60 text-[10px] font-display font-600 uppercase tracking-widest">
@@ -322,7 +322,7 @@ export default function HeroSection() {
             >
               <div className="flex items-center gap-2.5 mb-2">
                 <div
-                  className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0"
+                  className="w-7 h-7 rounded-full flex items-center justify-center shrink-0"
                   style={{ background: "rgba(63,111,82,0.12)" }}
                 >
                   <Icon name="ChatBubbleLeftEllipsisIcon" size={14} className="text-primary-hover" />
@@ -357,7 +357,7 @@ export default function HeroSection() {
               style={{ animationDelay: "1.5s" }}
             >
               <div className="flex items-center gap-2 mb-2">
-                <div className="w-8 h-8 rounded-full overflow-hidden flex-shrink-0">
+                <div className="w-8 h-8 rounded-full overflow-hidden shrink-0">
                   <AppImage
                     src="https://img.rocket.new/generatedImages/rocket_gen_img_1ee2bcef3-1763301295581.png"
                     alt="Customer profile photo of a woman with dark hair"

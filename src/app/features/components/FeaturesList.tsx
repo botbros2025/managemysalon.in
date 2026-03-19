@@ -266,7 +266,7 @@ function FeatureRow({
 export default function FeaturesList() {
   return (
     <section className="py-8 bg-bg">
-      <div className="max-w-container mx-auto px-6 lg:px-8">
+      <div className="max-w-container mx-auto px-10 lg:px-16">
         {features.map((feature, i) =>
         <FeatureRow key={feature.id} feature={feature} index={i} />
         )}

@@ -28,7 +28,7 @@ export default function FinalCTASection() {
   return (
     <section
       ref={sectionRef}
-      className="py-24 relative overflow-hidden"
+      className="section-spacing relative overflow-hidden"
       style={{ background: "#1F3D2B" }}
     >
       {/* Background decorations */}
@@ -50,7 +50,7 @@ export default function FinalCTASection() {
         }}
       />
 
-      <div className="max-w-container mx-auto px-6 lg:px-8 relative z-10 text-center">
+      <div className="container-main relative z-10 text-center">
         {/* Badge */}
         <div
           className="inline-flex items-center gap-2 rounded-full px-4 py-2 mb-8 reveal-hidden"

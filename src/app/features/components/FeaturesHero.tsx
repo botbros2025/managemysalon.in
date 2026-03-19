@@ -29,7 +29,7 @@ export default function FeaturesHero() {
   return (
     <section
       ref={ref}
-      className="pt-28 pb-16 relative overflow-hidden"
+      className="section-spacing pt-28 relative overflow-hidden"
       style={{
         background:
           "linear-gradient(180deg, #F6F4EF 0%, #EEEAE3 100%)",
@@ -43,7 +43,7 @@ export default function FeaturesHero() {
             "radial-gradient(circle at 80% 20%, rgba(63,111,82,0.07) 0%, transparent 50%), radial-gradient(circle at 20% 80%, rgba(201,164,76,0.05) 0%, transparent 50%)",
         }}
       />
-      <div className="max-w-container mx-auto px-6 lg:px-8 relative z-10">
+      <div className="container-main relative z-10">
         <div className="max-w-3xl">
           <div className="reveal-hidden">
             <Link

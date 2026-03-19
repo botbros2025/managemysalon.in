@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    './src/**/*.{js,ts,jsx,tsx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -50,7 +51,7 @@ module.exports = {
         'phone': '0 32px 80px rgba(31, 61, 43, 0.3), 0 8px 24px rgba(0,0,0,0.15)',
       },
       maxWidth: {
-        'container': '1280px',
+        'container': '1200px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
